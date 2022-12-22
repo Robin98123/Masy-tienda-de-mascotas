@@ -1,0 +1,55 @@
+@font-face {
+    font-family: typo-round ;
+    src: url('../fonts/Typo_Round_Regular_Demo.otf');
+}
+
+.nav_var{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.logo_marck{
+    background-color: rgb(255, 255, 255);
+    width: 180px;
+    height: 120px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 4px 6px 11px 0px #797979;
+}
+
+@media (max-width: 814px) {
+    nav{
+      display: none;
+    }
+}
+
+nav ul{
+    font-family: typo-round;
+    font-size: 20px;
+    color: #841917;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+}
+
+nav button{
+    font-family: typo-round;
+    font-size: 20px;
+    color: white;
+    background-color: #00C0FF;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 10px;
+    border: none;
+}
+
+nav button:hover{
+    background-color: #7C0190;
+}
