@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: typo-round ;
+    src: url('../fonts/Typo_Round_Regular_Demo.otf');
+}
+
+.filters{
+    display: flex;
+    gap:1rem;
+    text-align: center;
+}
+
+.filters h1{
+    font-family: typo-round;
+    font-size: 20px;
+    color: #841917;
+    margin: 0px auto;
+    
+}

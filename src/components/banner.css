@@ -1,8 +1,93 @@
+@font-face {
+    font-family: typo-round ;
+    src: url('../fonts/Typo_Round_Regular_Demo.otf');
+}
+
+@font-face {
+    font-family: WaitingfortheSunrise;
+    src: url('../fonts/WaitingfortheSunrise.ttf');
+}
+
 .image_banner{
     background-image: url('../img/banner_principal.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom right;
     width: 100%;
-    height: 900px;
+    height: 500px;
+}
+
+
+.main_text{
+    text-align:center;
+    max-width: 500px;
+    padding-top: 70px;
+    padding-left: 100px;
+    gap: 2rem;
+}
+
+.banner_tittle-1{
+    font-family: typo-round;
+    font-size: 25px;
+    color: #841917;
+}
+
+.banner_tittle-2{
+    font-family: WaitingfortheSunrise;
+    font-size: 50px;
+    -webkit-text-fill-color: rgb(0, 196, 245);
+    -webkit-text-stroke: 0.1px #841917;
+}
+
+.banner_tittle-3{
+    font-family: WaitingfortheSunrise;
+    font-size: 30px;
+    color: #841917;
+}
+
+.image_banner button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    font-family: typo-round;
+    font-size: 18px;
+    color: #0FAAD0;
+    border-radius: 15px;
+    border: none;
+
+}
+
+@media (max-width: 814px) {
+
+    .main_text{
+        max-width: 300px;
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+
+    .banner_tittle-1{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 425px){
+    .image_banner{
+        text-align:center;
+    }
+
+    .main_text{
+        margin: 0px auto;
+        max-width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .image_banner button{
+        background-color:  #0FAAD0 ;
+        color: white;
+    }
 }

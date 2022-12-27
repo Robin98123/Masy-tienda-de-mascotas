@@ -1,0 +1,79 @@
+@font-face {
+    font-family: typo-round ;
+    src: url('../fonts/Typo_Round_Regular_Demo.otf');
+}
+
+.sections{
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    
+
+}
+
+.sections button{
+    width: 150px;
+    height: 250px;
+    background-color: transparent;
+    border: none;
+}
+
+button h1{
+    font-family: typo-round ;
+    font-size: 20px;
+    color: #841917;
+    margin: 0.5rem;
+}
+
+button h2{
+    font-family: typo-round ;
+    font-size: 15px;
+    color: #979797;  
+}
+
+.perros{
+    max-width: 140px;
+    -webkit-filter: grayscale(1); /* Webkit */
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* W3C */
+}
+
+.gatos{
+    max-width: 120px ;
+    -webkit-filter: grayscale(1); /* Webkit */
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* W3C */
+    margin-bottom: 1rem;
+}
+
+.aves{
+    margin-top: -15px;
+    max-width: 130px;
+    -webkit-filter: grayscale(1); /* Webkit */
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* W3C */
+    margin-bottom: 1rem;
+}
+
+.peces{
+    max-width: 140px;
+    -webkit-filter: grayscale(1); /* Webkit */
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* W3C */
+    margin-bottom: 1rem;
+}
+
+.otros{
+    max-width: 110px;
+    -webkit-filter: grayscale(1); /* Webkit */
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* W3C */
+    margin-bottom: 1rem;
+}
+
+.perros:hover, .gatos:hover, .aves:hover, .peces:hover, .otros:hover {
+    -webkit-filter: grayscale(1); /* Webkit */
+    filter: gray; /* IE6-9 */
+    filter: grayscale(0); /* W3C */
+}

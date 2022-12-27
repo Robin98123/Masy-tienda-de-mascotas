@@ -40,7 +40,7 @@ Cra 36 # 28-35 Santa Isabel</h5>
 
             <div className="image_pay">
                 <h5>Medios de pago</h5>
-                <img src={medios_pago} alt="medios de pago" />
+                <img src={medios_pago} alt="medios de pago" className="medios_de_pago"/>
             </div>
     </div>
     </>
