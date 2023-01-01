@@ -8,6 +8,13 @@
     src: url('../fonts/Typo_Round_Regular_Demo.otf');
 }
 
+.container_product{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
 .product_container{
     width: 270px;
     border: 2px solid #D6D6D6;
