@@ -1,4 +1,6 @@
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Layout from "./pages/Layout"
 import Header from './components/Header';
 import Banner from './components/Banner';
 import Sections from './components/Sections';
@@ -8,14 +10,14 @@ import Anuncies from './components/Anuncies';
 
 function App() {
   return (
-    <body>
-    <Header />
-    <Banner/>
-    <Sections/>
-    <TopPrices/>
-    <Anuncies/>
-    <Footer />
-    </body>
+      <div>
+        <h1>routes</h1>
+        <Routes>
+          <Route path='/' element={<Layout/>}>
+
+          </Route>
+        </Routes>
+      </div>
   );
 }
 
