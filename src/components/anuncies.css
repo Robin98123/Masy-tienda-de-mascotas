@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: typo-round;
+    font-size: 20px;
+    color: #841917;
+}
+
+
+.container_anuncies{
+    text-align: center;
+}
+
+.container_anuncies h1{
+    margin-bottom: 2rem;
+}
+
+.images_anuncies{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+.images_anuncies img{
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+
+.images_anuncies-1 img{
+    max-width: 470px;
+}
+
+.images_anuncies-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media (max-width: 953px) {
+    .images_anuncies{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .images_anuncies-2{
+        margin: 0px auto;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    
+    .images_anuncies-1 img{
+        width: 310px;
+    }
+    
+    .images_anuncies-2 img{
+        width: 310px;
+    }
+}

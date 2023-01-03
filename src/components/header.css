@@ -27,17 +27,26 @@
     }
 }
 
-nav ul{
+ul {
     font-family: typo-round;
     font-size: 20px;
-    color: #841917;
     display: flex;
     gap: 2rem;
     list-style: none;
     align-items: center;
 }
 
-nav button{
+.link_element {
+    color: #841917;
+    text-decoration: none ;
+}
+
+
+.link_element:hover{
+   text-decoration: underline;
+}
+
+.shop_buttom{
     font-family: typo-round;
     font-size: 20px;
     color: white;
@@ -48,8 +57,10 @@ nav button{
     padding-bottom: 0.3rem;
     border-radius: 10px;
     border: none;
+    text-decoration: none;
 }
 
-nav button:hover{
+.shop_buttom:hover{
     background-color: #7C0190;
+    text-decoration: none;
 }

@@ -1,6 +1,7 @@
 import React, { Fragment } from "react"
 import "./header.css"
 import logo from "../img/logo_masya.svg"
+import { Link } from "react-router-dom"
 
 export default function Header (){
     return(
@@ -8,11 +9,11 @@ export default function Header (){
     <img src={logo} className="logo_marck"/>
     <nav>
             <ul>
-                <li>Inicio</li>
-                <li>Sobre nosotros</li>
-                <li>adopta</li>
-                <li>blog</li>
-                <li><button>Tienda</button></li>
+                <li><Link to="/Home" className="link_element">Inicio</Link></li>
+                <li><Link to="/about" className="link_element">Sobre nosotros</Link></li>
+                <li><Link to="/adopt" className="link_element">adopta</Link></li>
+                <li><Link to="/blog" className="link_element">blog</Link></li>
+                <li><Link to="/shop" className="shop_buttom">Tienda</Link></li>
             </ul>
         </nav>
     </div>
