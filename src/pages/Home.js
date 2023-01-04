@@ -3,6 +3,7 @@ import Sections from "../components/Sections"
 import TopPrices from "../components/TopPrices"
 import Anuncies from "../components/Anuncies"
 import OtherProducts from "../components/OtherProducts"
+import Coments from "../components/Coments"
 
 const Home = () =>{
     return (
@@ -12,6 +13,7 @@ const Home = () =>{
         <TopPrices/>
         <Anuncies/>
         <OtherProducts/>
+        <Coments/> 
         </>
     )
 } 
