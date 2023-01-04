@@ -1,6 +1,13 @@
+import "../components/shop.css"
+import ProductOff from "../components/ProductOff";
+import Sections from "../components/Sections";
+
 const Shop = () =>{
     return (
-        <h1>Hola mundo cruel</h1>
+        <div className="Shop-container">
+        <ProductOff/>
+        <Sections/>
+        </div>
     )
 } 
 
