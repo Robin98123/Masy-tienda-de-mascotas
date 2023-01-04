@@ -8,11 +8,14 @@ import Shop from "./Shop"
 const Routers = () =>{
     return (
     <Routes>
+
+        <Route path='/' element={<Home/>}/>
+        <Route path='Home' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
-        <Route path='/Home' element={<Home/>}/>
         <Route path='/adopt' element={<Adopt/>}/>
         <Route path='/blog' element={<Blog/>}/>
         <Route path='/shop' element={<Shop/>}/>
+
     </Routes>
     );
 }

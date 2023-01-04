@@ -1,0 +1,164 @@
+.container_othersproducts{
+    background-color: #D2F7FF;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container_othersproducts h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.block_banner-1{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.block_banner-2{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+.banner-1{
+    width: 437px;
+    height: 218px;
+    background-image: url("../img/otros_productos/banner-1\ .jpg");
+    background-position: right;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-1 h2{
+    font-family: typo-round;
+    text-align: left;
+    font-size: 25px;
+    color: #841917;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.banner-1 h3{
+    font-family: typo-round;
+    text-align: left;
+    font-size: 15px;
+    color: #841917;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.banner-2{
+    width: 500px;
+    height: 218px;
+    background-image:  url("../img/otros_productos/banner-2.jpg");
+    border-radius: 10px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-2 h2{
+    font-family: typo-round;
+    text-align: left;
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.banner-2 h3{
+    font-family: typo-round;
+    text-align: left;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+
+.banner-3{
+    width: 500px;
+    height: 218px;
+    background-image: url("../img/otros_productos/banner-3.jpg");
+    border-radius: 10px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-3 h2{
+    font-family: typo-round;
+    text-align: left;
+    font-size: 25px;
+    color: #2D1784;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.banner-3 h3{
+    font-family: typo-round;
+    text-align: left;
+    font-size: 15px;
+    color: #2D1784;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.banner-4{
+    width: 437px;
+    height: 218px;
+    background-image:  url("../img/otros_productos/banner-4.jpg");
+    border-radius: 10px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-4 h2{
+    font-family: typo-round;
+    text-align: left;
+    font-size: 25px;
+    color: #841917;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.banner-4 h3{
+    font-family: typo-round;
+    text-align: left;
+    font-size: 15px;
+    color: #841917;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+@media (max-width: 768px) {
+
+    .block_banner-1{
+        flex-direction: column;
+    }
+
+    .block_banner-2{
+        flex-direction: column;
+    }
+
+    .banner-1, .banner-2, .banner-3, .banner-4{
+        margin: 0px auto;
+    }
+    
+}
+
+@media (max-width: 425px) {
+
+    .block_banner-1, .block_banner-2{
+        justify-content: center;
+    }
+    
+}
