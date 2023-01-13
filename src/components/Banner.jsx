@@ -1,5 +1,6 @@
 import React from "react";
 import './banner.css'
+import { Link } from "react-router-dom"
 
 export default function Footer (){
     return(
@@ -9,7 +10,7 @@ export default function Footer (){
                 buenas, pero pára</h1>
             <h2 className="banner_tittle-2"> tu mejor amigo </h2>
             <h2 className="banner_tittle-3">¡La mayor calidad!</h2>
-            <button >Ir a la tienda</button>
+            <Link to="/shop" className="ir_tienda">Ir a la tienda</Link>
             </div>
         </div>
     )
