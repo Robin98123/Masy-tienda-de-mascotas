@@ -1,0 +1,81 @@
+.container_product{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.product_container{
+    width: 270px;
+    border: 2px solid #D6D6D6;
+    padding: 1rem;
+    border-radius: 20px;
+    text-justify: center;
+}
+
+
+.image_prodcut img{ 
+    margin: 0px auto;
+    height: 250px;
+}
+
+.product_cointainter-off{
+    width: 35px;
+    height: 23px;
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 40%;
+    font-family: typo-round;
+    font-size: 12px;
+    color: white;
+    padding-top: 5px;
+}
+
+.price_cash{
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+
+.price_description{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.price_continer h1{
+    font-family: typo-round;
+    color: #841917;
+    font-size: 20px;
+}
+
+.price_continer h2{
+    font-family: typo-round;
+    color: #8E8E8E;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+
+.price_continer h3{
+    font-family: typo-round;
+    color: #0FAAD0;
+    font-size: 23px;
+}
+
+.car_button img{
+    height: 40px;
+}
+.car_button{
+    background-color: #7C0190;
+    border: transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 20px;
+}
+
+.car_button:hover{
+    background-color: #35033d;
+}
