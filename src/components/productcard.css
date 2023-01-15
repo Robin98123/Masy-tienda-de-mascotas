@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 .container_product{
     display: flex;
     gap: 2rem;
@@ -58,7 +60,7 @@
 }
 
 .price_continer h3{
-    font-family: typo-round;
+    font-family: 'Nunito', sans-serif;
     color: #0FAAD0;
     font-size: 23px;
 }
