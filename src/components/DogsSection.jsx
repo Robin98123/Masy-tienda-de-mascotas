@@ -2,8 +2,9 @@ import React from "react";
 import "./dogssection.css";
 import ProductCard from "./ProductCard"
 
-export default function DogSection (){
+const DogSection = ( {id}) =>{
+    
     return(
-        <ProductCard/>
+        <div><ProductCard>{'id $ {1}'}</ProductCard></div>
     )
 }
