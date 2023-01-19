@@ -14,10 +14,11 @@ import "../components/shop.css"
 
 const Shop = () =>{
 
+    const [category, setCategory] = useState("ALL");
+
     const [allProducts, setAllProducts] = useState
     (products);
 
-    const [category, setCategory] = useState("ALL");
 
     useEffect(() =>{
         if (category === "ALL"){
@@ -97,7 +98,7 @@ const Shop = () =>{
                 <h1>Otros</h1> 
                     <h2>8 items</h2></button>
         </div>
-        {products.map (product =>(
+        {allProducts.map (product =>(
             <ProductCard key={product.id} product={product}/>
         ))}
         </div>
