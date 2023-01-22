@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import products from "../img/ProdutsCards/data";
 import ProductOff from "../components/ProductOff";
-import Sections from "../components/Sections";
 import ProductCard from "../components/ProductCard";
+import todos from "../icons/todos_icon.svg"
 import perros from "../icons/perros_icon.svg";
 import gatos from "../icons/gatos_icon.svg";
 import aves from "../icons/aves_icon.svg";
 import peces from "../icons/peces_icon.svg";
 import otros from "../icons/otros_icon.svg";
-import "../components/shop.css"
+import "../components/shop.css";
 
 
 
@@ -77,7 +77,7 @@ const Shop = () =>{
         <div className="Shop-container">
         <ProductOff/>
         <div className="sections">
-            <button onClick={()=> setCategory("ALL")}><img src={""} className={`todos ${
+            <button onClick={()=> setCategory("ALL")}><img src={todos} className={`todos ${
                 category === "ALL" ? "todos" : ""
             }`}></img>
                 <h1>todos</h1> 
@@ -99,7 +99,7 @@ const Shop = () =>{
                     <h2>8 items</h2></button>
         </div>
         {allProducts.map (product =>(
-            <ProductCard key={product.id} product={product}/>
+            <ProductCard key={product.id} product={product} className="productcard"/>
         ))}
         </div>
     )

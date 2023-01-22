@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     padding: 2rem;
+    margin-top: 2rem;
     
 
 }
@@ -30,6 +31,13 @@ button h2{
     font-family: typo-round ;
     font-size: 15px;
     color: #979797;  
+}
+
+.button_todos {
+    max-width: 140px;
+    -webkit-filter: grayscale(1); /* Webkit */
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* W3C */ 
 }
 
 .perros{
@@ -73,7 +81,10 @@ button h2{
 }
 
 .perros:active, .gatos:active, .aves:active, .peces:active, .otros:active {
-    -webkit-filter: grayscale(1); /* Webkit */
-    filter: gray; /* IE6-9 */
-    filter: grayscale(0); /* W3C */
+    -webkit-filter: grayscale(0); /* Webkit */
+    filter: none; /* IE6-9 */
+}
+
+.productcard{
+    display: flex;
 }
