@@ -85,6 +85,7 @@ button h2{
     filter: none; /* IE6-9 */
 }
 
-.productcard{
-    display: flex;
+.tarjetas_prueba{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }

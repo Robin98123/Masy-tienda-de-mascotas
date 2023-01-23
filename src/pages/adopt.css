@@ -1,0 +1,9 @@
+.img_banner{
+    margin-top: 2rem;
+    width: 100%;
+    background-color: #FFA8AD;
+}
+
+.img_banner img{
+    height: 400px;
+}

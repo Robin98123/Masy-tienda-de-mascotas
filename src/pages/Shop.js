@@ -8,7 +8,7 @@ import gatos from "../icons/gatos_icon.svg";
 import aves from "../icons/aves_icon.svg";
 import peces from "../icons/peces_icon.svg";
 import otros from "../icons/otros_icon.svg";
-import "../components/shop.css";
+import "./shop.css";
 
 
 
@@ -74,6 +74,7 @@ const Shop = () =>{
 
 
     return (
+        <>
         <div className="Shop-container">
         <ProductOff/>
         <div className="sections">
@@ -98,10 +99,14 @@ const Shop = () =>{
                 <h1>Otros</h1> 
                     <h2>8 items</h2></button>
         </div>
+        <div className="tarjetas_prueba">
         {allProducts.map (product =>(
-            <ProductCard key={product.id} product={product} className="productcard"/>
-        ))}
+            <ProductCard  key={product.id}  product={product} className="productcard"/>
+            ))} 
         </div>
+        </div>
+
+        </>
     )
 } 
 

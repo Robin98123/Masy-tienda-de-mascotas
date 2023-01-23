@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+
 .container_product{
     display: flex;
+    width: 270px;
     gap: 2rem;
     justify-content: center;
     margin-bottom: 3rem;
