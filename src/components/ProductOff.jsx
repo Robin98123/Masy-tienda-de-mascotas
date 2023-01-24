@@ -8,7 +8,7 @@ import car_icon from "../icons/car_prices.svg"
 export default function ProductOff (){
     return(
         
-        <div className="container_product">
+        <div className="container_product-oferts">
         <div className="product_container">
             <div className="product_cointainter-off">
                 -10%

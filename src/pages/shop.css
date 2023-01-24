@@ -9,8 +9,9 @@
     justify-content: space-between;
     padding: 2rem;
     margin-top: 2rem;
-    
-
+    display: grid ;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
 }
 
 .sections button{
@@ -80,7 +81,21 @@ button h2{
     margin-bottom: 1rem;
 }
 
-.perros:active, .gatos:active, .aves:active, .peces:active, .otros:active {
+.todos{
+    max-width: 135px;
+        -webkit-filter: grayscale(1); /* Webkit */
+        filter: gray; /* IE6-9 */
+        filter: grayscale(1); /* W3C */
+        margin-bottom: 1rem;
+    
+}
+
+.todos:hover{
+    -webkit-filter: grayscale(0); /* Webkit */
+    filter: none; /* IE6-9 */
+}
+
+.perros:active, .gatos:active, .aves:active, .peces:active, .otros:active, .todos:active{
     -webkit-filter: grayscale(0); /* Webkit */
     filter: none; /* IE6-9 */
 }
@@ -88,4 +103,31 @@ button h2{
 .tarjetas_prueba{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    justify-items:center;
+}
+
+@media (max-width:964px) {
+    .tarjetas_prueba{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width:628px) {
+    .tarjetas_prueba{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    
+}
+
+@media (max-width:1112px) {
+    .sections{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (max-width:768px) {
+    .sections{
+        grid-template-columns: repeat(2,1fr);
+    }
 }

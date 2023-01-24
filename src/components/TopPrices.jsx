@@ -7,8 +7,6 @@ export default function TopPrices (){
         <div className="container_TopPrices">
         <div className="filters">
             <h1>Ofertas</h1>
-            <h1>Nuevos productos</h1>
-            <h1>Los más vendidos</h1>
         </div>
             <div className="productoff-componet">
             <ProductOff />

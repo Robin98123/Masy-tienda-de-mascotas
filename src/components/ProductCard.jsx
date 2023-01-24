@@ -1,9 +1,28 @@
 import React from "react";
+import { useDispatch } from "react-redux";
 import "../components/productcard.css"
 import car_icon from "../icons/car_prices.svg"
 
+// Import components
+import { cartActions } from "../store/shopping-cart/cartSlice";
+import { priceFormat } from "../App";
+
+
 const ProductCard = (props) => {
     const {id, name, price, img }= props.product
+
+    const dispatch = useDispatch();
+
+  const addToCart = () => {
+    dispatch(
+      cartActions.addItem({
+        id,
+        name,
+        img,
+        price,
+      })
+    );
+  };
     
     return(
         <div className="styles_product-card">

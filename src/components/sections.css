@@ -3,10 +3,16 @@
     src: url('../fonts/Typo_Round_Regular_Demo.otf');
 }
 
-.sections{
+.secttions_container{
     background-color: #F8F8F8;
-    display: flex;
-    justify-content: space-between;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.sections{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
     padding: 2rem;
     
 

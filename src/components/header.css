@@ -21,13 +21,57 @@
     box-shadow: 4px 6px 11px 0px #797979;
 }
 
+.car_icon_menu img{
+    width: 50px;
+}
+
+
 @media (max-width: 814px) {
-    nav{
+    .principal_menu{
       display: none;
     }
 }
 
-ul {
+.menu_lateral{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+@media (max-width: 964px) {
+    .principal_menu{
+        display: none;
+    }
+
+    .car_icon_menu{
+        display: block;
+    }
+
+    .button_menu-icon{
+        display: block;
+    }
+
+}
+
+@media (min-width:964px) {
+    .container-menu{
+        display: none;
+    }
+
+    .menu_lateral{
+        display: none;
+    }
+
+    .car_icon_menu{
+        display: none;
+    }
+
+    .button_menu-icon{
+        display: none;
+    }
+}
+
+.principal_menu ul{
     font-family: typo-round;
     font-size: 20px;
     display: flex;
@@ -69,3 +113,89 @@ ul {
     width: 50px;
 }
 
+.button_menu-icon{
+    width: 40px;
+}
+
+.label_menu{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+#btn-menu{
+    display: none;
+}
+
+.container-menu{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    width: 250px;
+    height: 50vh;
+    top: 0;
+    right: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#btn-menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible;
+}
+
+.cont-menu{
+    width: 100%;
+    max-width: 250px;
+    background: #7C0190;
+    height: 50vh;
+    position: relative;
+    transition: all 500ms ease;
+}
+
+.cont-menu nav{
+    transform: translateY(15%);
+}
+
+.cont-menu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.link_element_lateral{
+    text-decoration: none;
+    color: white;
+}
+
+.lateral_menu li{
+    font-family: typo-round;
+    font-size: 20px;
+    margin-left: 2rem;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.shop_buttom_lateral{
+    font-family: typo-round;
+    font-size: 20px;
+    color: rgb(0, 174, 255);
+    background-color: #ffffff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+}
+
+.cont-menu label{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: typo-round ;
+}

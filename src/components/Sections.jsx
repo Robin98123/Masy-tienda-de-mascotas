@@ -8,6 +8,12 @@ import otros from "../icons/otros_icon.svg"
 
 export default function Sections (){
     return(
+        <>
+        
+        <div className="secttions_container">
+        <div>
+            <h1>en nuesta tienda encontras productos para</h1>
+        </div>
         <div className="sections">
             <button><img src={perros} className="perros"></img>
                 <h1>Perros</h1> 
@@ -24,6 +30,8 @@ export default function Sections (){
             <button><img src={otros} className="otros"></img>
                 <h1>Otros</h1> 
                     <h2>8 items</h2></button>
+            </div>
         </div>
+        </>
     )
 }
