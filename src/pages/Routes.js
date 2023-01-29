@@ -5,7 +5,7 @@ import Adopt from "./Adopt"
 import Blog from "./Blog"
 import Shop from "./Shop"
 
-const Routers = () =>{
+const Routers = ({productsInCart, setProductsInCart}) =>{
     return (
     <Routes>
 
@@ -14,7 +14,7 @@ const Routers = () =>{
         <Route path='/about' element={<About/>}/>
         <Route path='/adopt' element={<Adopt/>}/>
         <Route path='/blog' element={<Blog/>}/>
-        <Route path='/shop' element={<Shop/>}/>
+        <Route path='/shop' element={<Shop productsInCart={productsInCart} setProductsInCart={setProductsInCart}/>}/>
 
     </Routes>
     );

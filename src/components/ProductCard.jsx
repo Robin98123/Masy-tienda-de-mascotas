@@ -9,20 +9,18 @@ import { priceFormat } from "../App";
 
 
 const ProductCard = (props) => {
-    const {id, name, price, img }= props.product
+    const {id, name, price, img }= props.product;
 
-    const dispatch = useDispatch();
+    const setProductsInCart = props.setProductsInCart;
 
-  const addToCart = () => {
-    dispatch(
-      cartActions.addItem({
-        id,
-        name,
-        img,
-        price,
-      })
-    );
-  };
+    const productsInCart= props.productsInCart;
+
+    const product = props.product;
+    
+    const onAddProduct = (item) => {
+      setProductsInCart([...productsInCart, item]);
+    };
+
     
     return(
         <div className="styles_product-card">
@@ -37,7 +35,7 @@ const ProductCard = (props) => {
                         <div className="price_cash">
                         <h3>$ {price}</h3>
                         </div> 
-                    <button className="car_button"><img src={car_icon}/></button>
+                    <button className="car_button"><img src={car_icon} onClick ={()=> {onAddProduct (product)}}/></button>
                     </div> 
                 </div>
             </div>

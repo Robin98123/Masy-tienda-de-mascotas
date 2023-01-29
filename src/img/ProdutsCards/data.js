@@ -76,6 +76,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Ganador premium- cachorro x 4kg",
       price: 70200,
       img:  perros_img_1,
+      quantity: 18,
     },
 
     {
@@ -84,6 +85,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Pedigree razas pequeñas cachorro x 450gr",
       price: 10500,
       img:perros_img_2,
+      quantity: 20,
     },
 
     {
@@ -92,6 +94,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Ganador premium-cachorro x 20kg",
       price: 207000,
       img:perros_img_3,
+      quantity: 35,
     },
 
     {
@@ -100,6 +103,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Monello Dog premium-Tadicional x 1kg",
       price: 15400,
       img:perros_img_4,
+      quantity: 14,
     },
 
     {
@@ -108,6 +112,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Q-Ida Can Adultos x 25Kg o 55 Lbr",
       price: 125000,
       img:perros_img_5,
+      quantity: 17,
     },
 
     {
@@ -116,6 +121,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Q-Ida Can Adultos x 15Kg o 33 Lbr ",
       price: 64100,
       img:perros_img_6,
+      quantity: 9,
     },
 
     {
@@ -124,6 +130,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Q-Ida Can Cachorros x 1kg",
       price: 5000,
       img:perros_img_7,
+      quantity: 62,
     },
 
     {
@@ -132,6 +139,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Alimento Ringo para perro croquetas x20kg",
       price: 101800,
       img:perros_img_8,
+      quantity: 40,
     },
 
     {
@@ -140,6 +148,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Alimento Ringo para perro croquetas x2kg",
       price: 11500,
       img:perros_img_9,
+      quantity: 58,
     },
 
     {
@@ -148,6 +157,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Alimento Ringo cachorro croquetas x2kg",
       price: 12400,
       img:perros_img_10,
+      quantity: 32,
     },
 
     {
@@ -156,6 +166,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Nutrecan Croquetas Adulto 25kg",
       price: 105000,
       img:perros_img_11,
+      quantity: 15,
     },
 
     {
@@ -164,6 +175,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Nutrecan Croquetas Adulto 15kg",
       price: 70000,
       img:perros_img_12,
+      quantity: 13,
     },
 
     {
@@ -172,6 +184,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Nutrecan Croquetas Adulto 2kg",
       price: 10500,
       img:perros_img_13,
+      quantity: 25,
     },
 
     {
@@ -180,6 +193,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Nutrecan Croquetas Cachorro 2kg",
       price: 13200,
       img:perros_img_14,
+      quantity: 5,
     },
 
     {
@@ -188,6 +202,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Smartbones  Snack Mini Camote X 8 Und",
       price: 17500,
       img:perros_img_15,
+      quantity: 35,
     },
 
     {
@@ -196,6 +211,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Snacks Perro Raza Pequeña Dentastix 14 Barras",
       price: 40100,
       img:perros_img_16,
+      quantity: 25,
     },
 
     {
@@ -204,6 +220,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Alimento humedo Sobre Carne Res",
       price: 3000,
       img:perros_img_17,
+      quantity: 75,
     },
 
     {
@@ -212,6 +229,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Pedigree caja 12 Sobres 100 Gr - 6carne, 6 pollo",
       price: 45900,
       img:perros_img_18,
+      quantity: 15,
     },
 
     {
@@ -220,6 +238,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Forro Protector Mascota Carro",
       price: 32000,
       img:perros_img_19,
+      quantity: 55,
     },
 
     {
@@ -228,6 +247,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "Bolsas Biodegradables Desechos De Mascotas",
       price: 6200,
       img:perros_img_20,
+      quantity: 85,
     },
 
     {
@@ -236,6 +256,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
       name: "comedero sencillo acero inoxidable perros",
       price: 18500,
       img:perros_img_21,
+      quantity: 35,
     },
 
       //Section cats
@@ -246,6 +267,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
         name: "Q-ida Cat x 500g",
         price: 4050,
         img:gatos_img_1,
+        quantity: 65,
       },
 
       {
@@ -254,6 +276,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
         name: "Q-ida Cat x 8kg",
         price: 45500,
         img:gatos_img_2,
+        quantity: 15,
       },
 
       {
@@ -262,6 +285,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
         name: "Mirringo Adultos x 1kg",
         price: 9000,
         img:gatos_img_3,
+        quantity: 55,
       },
 
       {
@@ -270,6 +294,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
         name: "Mirringo gaticos hasta 12 meses ",
         price: 5700,
         img:gatos_img_4,
+        quantity: 85,
       },
 
       {
@@ -278,6 +303,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
         name: "Don Kat pequeños 500gr",
         price: 5100,
         img:gatos_img_5,
+        quantity: 25,
       },
 
       {
@@ -286,6 +312,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
         name: "Alimentos Para Gatos Donkat 7kg",
         price: 69500,
         img:gatos_img_6,
+        quantity: 65,
       },
 
       {
@@ -294,6 +321,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
         name: "Push Felix surtido pague 3 lleve 4",
         price: 10500,
         img:gatos_img_7,
+        quantity: 55,
       },
 
       {
@@ -302,6 +330,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
         name: "Alimento para gato lata 5,5 Oz",
         price: 14000,
         img:gatos_img_8,
+        quantity: 95,
       },
 
       {
@@ -310,6 +339,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
         name: "Delicat gatos chunky lata x 156gr",
         price: 5000,
         img:gatos_img_9,
+        quantity: 25,
       },
 
       {
@@ -318,6 +348,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
         name: "Arena cítrica freemiau 7kg",
         price: 42200,
         img:gatos_img_10,
+        quantity: 45,
       },
 
       {
@@ -326,6 +357,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
         name: "Tapete arenero maya",
         price: 35000,
         img:gatos_img_11,
+        quantity: 45,
       },
 
       {
@@ -334,6 +366,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
         name: "Juguete Esfera Catnip con adhesivo ",
         price: 14900,
         img:gatos_img_12,
+        quantity: 45,
       },
 
         //Section birds
@@ -344,6 +377,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
           name: "mixtura para aves conditodo x 250gr",
           price: 2100,
           img:aves_img_1,
+          quantity: 65,
         },
   
         {
@@ -352,6 +386,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
           name: "Semillas de girasol 200g ",
           price: 7900,
           img:aves_img_2,
+          quantity: 25,
         },
   
         {
@@ -360,6 +395,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
           name: "Alimento semco para pericos",
           price: 3200,
           img:aves_img_3,
+          quantity: 35,
         },
   
         {
@@ -368,6 +404,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
           name: "Jaula para aves con comederos ",
           price: 130000,
           img:aves_img_4,
+          quantity: 55,
         },
   
         {
@@ -376,6 +413,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
           name: "comedero aves para jaula estandar",
           price: 6500,
           img:aves_img_5,
+          quantity: 65,
         },
         
         //fish section
@@ -386,6 +424,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
             name: "Tetra Jungle  peces Hojuelas 500g",
             price: 32000,
             img:peces_img_1,
+            quantity: 65,
           },
     
           {
@@ -394,6 +433,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
             name: "Filtro De Esponja Resun Xy 380",
             price: 20000,
             img:peces_img_2,
+            quantity: 25,
           },
     
           {
@@ -402,6 +442,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
             name: "Termometro En Vidrio Para Acuarios",
             price: 8900,
             img:peces_img_3,
+            quantity: 45,
           },
     
           {
@@ -410,6 +451,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
             name: "Acuario pequeño oficina",
             price: 120150,
             img:peces_img_4,
+            quantity: 15,
           },
     
           {
@@ -418,6 +460,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
             name: "Mini Bomba de agua",
             price: 32000,
             img:peces_img_5,
+            quantity: 25,
           },
 
             //others sections
@@ -428,6 +471,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
               name: "urgent care dieta suplemento/ gato y perro",
               price: 17500,
               img:otros_img_1,
+              quantity: 35,
             },
       
             {
@@ -436,6 +480,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
               name: "Engystol Gotas inmuno suplemento 30ml",
               price: 85000,
               img:otros_img_2,
+              quantity: 55,
             },
 
             {
@@ -444,6 +489,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
               name: "Royal Canin C-11402 dieta rebitalizante - 195 gr",
               price: 22000,
               img:otros_img_3,
+              quantity: 24,
             },
       
             {
@@ -452,6 +498,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
               name: "Actifun Crema 30grm desinflamatoria",
               price: 29000,
               img:otros_img_4,
+              quantity: 32,
             },
 
             {
@@ -460,6 +507,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
               name: "Ungüento anti sarna Asarnyl perros y gatos",
               price: 25800,
               img:otros_img_5,
+              quantity: 51,
             },
       
             {
@@ -468,6 +516,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
               name: "Cepillo de dientes para perros y gatos",
               price: 18500,
               img:otros_img_6,
+              quantity: 52,
             },
 
             {
@@ -476,6 +525,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
               name: "Vitaminas Perros Gatos Articulaciones 60 Tab",
               price: 92000,
               img:otros_img_7,
+              quantity: 36,
             },
       
             {
@@ -484,6 +534,7 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
               name: "Desparasitante Rondel perros y gatos 5 mil",
               price: 7000,
               img:otros_img_8,
+              quantity: 41,
             },
 
   ];

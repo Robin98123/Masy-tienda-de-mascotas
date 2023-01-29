@@ -6,7 +6,8 @@ import cart_h from "../icons/car_prices_header.svg"
 import menu_icon from "../icons/menu_icon.svg"
 
 
-export default function Header (){
+export default function Header ({productsInCart, setProductsInCart}){
+    
     return(
     <><div className="nav_var">
     <img src={logo} className="logo_marck"/>
@@ -17,7 +18,17 @@ export default function Header (){
                 <li><Link to="/adopt" className="link_element">adopta</Link></li>
                 <li><Link to="/blog" className="link_element">blog</Link></li>
                 <li><Link to="/shop" className="shop_buttom">Tienda</Link></li>  
-                <li><img src={cart_h} className="cart_icon"/></li>
+                <li><img src={cart_h} className="cart_icon"/> <span>{productsInCart.length}</span> 
+               
+                <div className="description_product-cart">
+                            <div className="cart_products-container">
+                            <h1>1</h1> 
+                            <h1>comida perro</h1>
+                            <h1>$100</h1>
+                            </div>
+                </div>
+
+                </li>
             </ul>
         </nav>
     

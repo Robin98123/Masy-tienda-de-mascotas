@@ -199,3 +199,18 @@
     font-size: 18px;
     font-family: typo-round ;
 }
+
+.cart_products-container{
+    background-color: #00C0FF;
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.cart_products-container h1{
+    color: white;
+    font-family: typo-round ;
+
+}

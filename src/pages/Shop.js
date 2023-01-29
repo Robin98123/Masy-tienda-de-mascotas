@@ -12,7 +12,7 @@ import "./shop.css";
 
 
 
-const Shop = () =>{
+const Shop = ({productsInCart, setProductsInCart}) =>{
 
     const [category, setCategory] = useState("ALL");
 
@@ -101,7 +101,7 @@ const Shop = () =>{
         </div>
         <div className="tarjetas_prueba">
         {allProducts.map (product =>(
-            <ProductCard  key={product.id}  product={product} className="productcard"/>
+            <ProductCard  key={product.id}  product={product} setProductsInCart={setProductsInCart} productsInCart={productsInCart} className="productcard"/>
             ))} 
         </div>
         </div>
