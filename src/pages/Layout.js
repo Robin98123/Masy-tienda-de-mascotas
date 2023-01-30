@@ -6,16 +6,26 @@ import Footer from "../components/Footer";
 
 
 
-const Layout = () =>{
-    const [productsInCart, setProductsInCart] = useState([]);
+const Layout = (allProducts) =>{
+    const [productsInCart, setProductsInCart, ] = useState([]);
+    const [allToProducts, setAllToProducts] = useState([]);
     console.log("products in layouts", productsInCart)
     return (
         <div>
 
             <Header productsInCart={productsInCart} 
-            setProductsInCart={setProductsInCart}/>
+            setProductsInCart={setProductsInCart}
+            allToProducts={allToProducts} 
+            setAllProducts={setAllToProducts}
+            allProducts={allProducts}
+            />
 
-            <div><Routes productsInCart={productsInCart} setProductsInCart={setProductsInCart}/></div>
+            <div><Routes 
+            productsInCart={productsInCart} 
+            setProductsInCart={setProductsInCart}
+            allToProducts={allToProducts}
+            setAllToProducts={allToProducts}
+            /></div>
 
             <Footer/>
 

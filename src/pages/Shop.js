@@ -12,7 +12,7 @@ import "./shop.css";
 
 
 
-const Shop = ({productsInCart, setProductsInCart}) =>{
+const Shop = ({productsInCart, setProductsInCart, allToProducts, setAllToProducts}) =>{
 
     const [category, setCategory] = useState("ALL");
 
@@ -68,10 +68,6 @@ const Shop = ({productsInCart, setProductsInCart}) =>{
 
     }, [category]);
 
-    // const products_card = products.map(product =>(
-    //     <ProductCard key={product.id} {...product}/>
-    // ))
-
 
     return (
         <>
@@ -101,7 +97,8 @@ const Shop = ({productsInCart, setProductsInCart}) =>{
         </div>
         <div className="tarjetas_prueba">
         {allProducts.map (product =>(
-            <ProductCard  key={product.id}  product={product} setProductsInCart={setProductsInCart} productsInCart={productsInCart} className="productcard"/>
+            <ProductCard  key={product.id}  
+            product={product} setProductsInCart={setProductsInCart} productsInCart={productsInCart} allToProducts={allToProducts} setAllProducts={setAllToProducts} className="productcard"/>
             ))} 
         </div>
         </div>

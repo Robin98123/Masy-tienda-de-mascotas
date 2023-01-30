@@ -5,7 +5,7 @@ import Adopt from "./Adopt"
 import Blog from "./Blog"
 import Shop from "./Shop"
 
-const Routers = ({productsInCart, setProductsInCart}) =>{
+const Routers = ({productsInCart, setProductsInCart, allToProducts, setAllToProducts}) =>{
     return (
     <Routes>
 
@@ -14,7 +14,11 @@ const Routers = ({productsInCart, setProductsInCart}) =>{
         <Route path='/about' element={<About/>}/>
         <Route path='/adopt' element={<Adopt/>}/>
         <Route path='/blog' element={<Blog/>}/>
-        <Route path='/shop' element={<Shop productsInCart={productsInCart} setProductsInCart={setProductsInCart}/>}/>
+        <Route path='/shop' element={<Shop 
+        productsInCart={productsInCart} 
+        setProductsInCart={setProductsInCart} 
+        allToProducts={allToProducts} 
+        setAllProducts={setAllToProducts}/>}/>
 
     </Routes>
     );
