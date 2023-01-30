@@ -79,15 +79,16 @@ export default function Header({
                                 <span className="total-pagar">$200</span>
                                 </>))}
                                 <p>el carrito esta vacio</p>
-                            </div>
-                            </div>
-
-                  <button
+                                <button
                     className="close_modal"
                     onClick={() => setActive(!active)}
                   >
                     <img src={alt_arrow} />
                   </button>
+                            </div>
+                            </div>
+
+                  
                 </div>
               </div>
             </li>
