@@ -12,7 +12,8 @@ const Layout = () =>{
     return (
         <div>
 
-            <Header productsInCart={productsInCart} setProductsInCart={setProductsInCart}/>
+            <Header productsInCart={productsInCart} 
+            setProductsInCart={setProductsInCart}/>
 
             <div><Routes productsInCart={productsInCart} setProductsInCart={setProductsInCart}/></div>
 
