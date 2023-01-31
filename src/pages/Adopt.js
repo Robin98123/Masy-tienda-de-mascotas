@@ -5,31 +5,32 @@ import "./adopt.css"
 
 const Adopt = () =>{
     return (
-        <>
+        
+        <div className="container_adopt">
         <div className="img_banner">
         <img src={banneradop} />
         </div>
-        <div>
-            <p>Adoptar a un perro o gato implica tomar una gran decisión 
-y responsabilidad. Debes tener en cuenta que el perro
- requiere tiempo, por lo tanto es importante que tengas
- claridad sobre la disponibilidad que tengas de este.
+        <div className="adop-main">
+            <p>Adoptar a un perro o gato implica tomar una gran decisión <br/>
+y responsabilidad, debes tener en cuenta que el perro <br/>
+ requiere tiempo, por lo tanto es importante que tengas <br/>
+ claridad sobre la disponibilidad que tengas de este <br/>
 
- Él no solo necesita compañía, sino actividad física diaria 
-(La falta de ejercicio físico es una de las principales razones
- por las que los perros presentan problemas de conducta).
-De igual forma, requiere paciencia y compromiso en el 
-proceso de educación, así como dinero mensual para cubrir
- los costos asociados a su alimentación, atención veterinaria, 
-guardería (en época de vacaciones) y todos los cuidados 
-que requiere durante un período de tiempo que puede ser
- de 15 años ó más. Adoptar un animal de compañía puede
- ser gratificante, pero solo si estas completamente seguro 
-y convencido de todo lo que implicara para ti adoptar 
-un compañero.</p>
+ Él no solo necesita compañía, sino actividad física diaria  <br/>
+(La falta de ejercicio físico es una de las principales razones <br/>
+ por las que los perros presentan problemas de conducta) <br/>
+De igual forma, requiere paciencia y compromiso en el <br/>
+proceso de educación, así como dinero mensual para cubrir <br/>
+ los costos asociados a su alimentación, atención veterinaria, <br/> 
+guardería (en época de vacaciones) y todos los cuidados <br/>
+que requiere durante un período de tiempo que puede ser <br/>
+ de 15 años ó más, adoptar un animal de compañía puede <br/>
+ ser gratificante, pero solo si estas completamente seguro <br/>
+y convencido de todo lo que implicara para ti adoptar <br/>
+un compañero</p>
     <img src={dog_image}/>
         </div>
-        </>
+        </div>
     )
 } 
 

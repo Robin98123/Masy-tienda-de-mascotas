@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import "./footer.css"
 import logo_svg from "../img/logo_masya_usolibre.svg"
 import tiktok from "../icons/tiktok_icon.svg"
@@ -6,6 +6,7 @@ import instagram from "../icons/instagram_icon.svg"
 import whatsapp from "../icons/whatsapp_icon.svg"
 import youtube from "../icons/youtube_icon.svg"
 import medios_pago from "../icons/medios_pago.png"
+import { Routes } from "react-router-dom"
 
 
 export default function Footer (){

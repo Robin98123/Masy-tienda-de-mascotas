@@ -3,7 +3,7 @@ import "../components/productcard.css"
 import car_icon from "../icons/car_prices.svg"
 
 
-const ProductCard = (props, allToProducts, setAllToProducts ) => {
+const ProductCard = (props, setAllToProducts ) => {
     const {id, name, price, img }= props.product;
 
     const setProductsInCart = props.setProductsInCart;
@@ -11,6 +11,14 @@ const ProductCard = (props, allToProducts, setAllToProducts ) => {
     const productsInCart= props.productsInCart;
 
     const product = props.product;
+
+    //if (productsInCart.find(item => item.id === product.id)){
+
+      //  const products = productsInCart.map(item => item.id === product.id ? {...item, quantity: item.quantity +1 } 
+        //    : item);
+
+          //  return onAddProduct([...products]);
+    // }
     
     const onAddProduct = (item) => {
       setProductsInCart([...productsInCart, item]);

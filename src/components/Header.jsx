@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { useState } from "react";
 import "./header.css";
 import logo from "../img/logo_masya.svg";
 import { Link } from "react-router-dom";
@@ -7,11 +7,7 @@ import menu_icon from "../icons/menu_icon.svg";
 import alt_arrow from "../icons/left-arrow-alt.svg";
 
 export default function Header({
-  productsInCart,
-  setProductsInCart,
-  allToProducts,
-  setAllToProducts,
-  allProducts,
+  productsInCart, total
 }) {
   const [active, setActive] = useState(false);
 
@@ -62,23 +58,24 @@ export default function Header({
                       <div className="overlay-modal">
                         <div className="conten_modal-cart">
 
-                            {allToProducts.map((product) => (
+                            {productsInCart.map((product) => (
                                 <>
                                 <div
                                     className="content-productsInCart"
                                     key={product.id}>
                                     <h1>{product.quantity}</h1>
                                     <h1>{product.name}</h1>
-                                    <h1>{product.price}</h1>
+                                    <h1>${product.price}</h1>
                                 </div>
+                                </>))}
 
                                 <div>
                                     <h1>Total</h1>
                                 </div>
 
-                                <span className="total-pagar">$200</span>
-                                </>))}
-                                <p>el carrito esta vacio</p>
+                                <span className="total-pagar">${total}</span>
+                                <button className="Clear-all-cart">vaciar carrito</button>
+
                                 <button
                     className="close_modal"
                     onClick={() => setActive(!active)}
