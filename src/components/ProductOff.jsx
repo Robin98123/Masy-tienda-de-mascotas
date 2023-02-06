@@ -23,7 +23,6 @@ export default function ProductOff (){
                     <h2>$78,000</h2>
                     <h3>$70,200</h3>
                     </div> 
-                <button className="car_button"><img src={car_icon}/></button>
                 </div> 
             </div>
 
@@ -41,9 +40,8 @@ export default function ProductOff (){
     <div className="price_description">  
         <div className="price_cash">     
         <h2>$78,000</h2>
-        <h3>$70,200</h3>
+        <h3 className="newprice">$70,200</h3>
         </div> 
-    <button className="car_button"><img src={car_icon}/></button>
     </div> 
 </div>
 
@@ -63,7 +61,6 @@ export default function ProductOff (){
                     <h2>$78,000</h2>
                     <h3>$70,200</h3>
                     </div> 
-                <button className="car_button"><img src={car_icon}/></button>
                 </div> 
             </div>
 

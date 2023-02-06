@@ -100,25 +100,8 @@ button h2{
     filter: none; /* IE6-9 */
 }
 
-.tarjetas_prueba{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-items:center;
-}
 
-@media (max-width:964px) {
-    .tarjetas_prueba{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
 
-@media (max-width:628px) {
-    .tarjetas_prueba{
-        grid-template-columns: repeat(1,1fr);
-    }
-
-    
-}
 
 @media (max-width:1112px) {
     .sections{

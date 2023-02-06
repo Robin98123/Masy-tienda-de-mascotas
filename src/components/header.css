@@ -28,9 +28,6 @@
 
 
 @media (max-width: 814px) {
-    .principal_menu{
-      display: none;
-    }
 }
 
 .menu_lateral{
@@ -40,16 +37,13 @@
 }
 
 @media (max-width: 964px) {
-    .principal_menu{
+    .link_home, .link_about, .link_adopt, .link_shop, .link_blog{
         display: none;
     }
 
-    .car_icon_menu{
-        display: block;
-    }
-
-    .button_menu-icon{
-        display: block;
+    .cartAndMenuLateral{
+        display: flex;
+        gap: 2rem;
     }
 
 }
@@ -60,14 +54,6 @@
     }
 
     .menu_lateral{
-        display: none;
-    }
-
-    .car_icon_menu{
-        display: none;
-    }
-
-    .button_menu-icon{
         display: none;
     }
 }
@@ -213,7 +199,7 @@
 
 .overlay-modal{
     width: 100vw;
-    height: 75vh;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -240,8 +226,42 @@
 
 .content-productsInCart{
     display: flex;
-    gap: 3rem;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    border-bottom: 2px solid rgb(186, 227, 233);
+    padding-bottom: 1rem;
 }
+
+
+.container-products_incart{
+    display: flex;
+}
+
+.button-deleteandagree{
+    display: flex;
+    gap: 1rem;
+}
+
+.button-deleteandagree button{
+    background-color: transparent;
+    border: 2px solid rgba(0,192,255,0.8);
+    font-family: typo-round ;
+    color: rgba(0,192,255,0.8);
+    font-family: typo-round;
+    font-size: 20px;
+    border-radius: 12px;
+    width: 35px;
+    height: 30px;
+}
+
+.button-deleteandagree button:hover{
+    background-color:  rgba(0,192,255,0.8);
+    color: white;
+    border: none;
+}
+
+
 
 .content-productsInCart h1{
     padding: 1rem;
@@ -282,10 +302,34 @@ position: relative;
     left: 0;
 }
 
-.Clear-all-cart{
+.clearcart-button{
     font-family: typo-round;
     font-size: 20px;
     color: white;
+    background-color: #7C0190;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.clearcart-button:hover{
+    background-color: transparent;
+    border: 2px solid #7C0190;
+    font-family: typo-round ;
+    color: #7C0190;
+    font-family: typo-round;
+}
+
+
+.whstapp-button{
+    font-family: typo-round;
+    font-size: 20px;
+    color: white;
+    width: 70%;
     background-color: #00C0FF;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -295,3 +339,17 @@ position: relative;
     border: none;
     margin-bottom: 1rem;
 }
+
+.whstapp-button:hover{
+    background-color: transparent;
+    border: 2px solid rgba(0,192,255,0.8);
+    font-family: typo-round ;
+    color: rgba(0,192,255,0.8);
+    font-family: typo-round;
+}
+
+.Wahtsapp-react{
+    background-color: transparent;
+    border: none;
+}
+

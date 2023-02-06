@@ -1,72 +1,72 @@
 //Dog section
 
-import perros_img_1 from "../../img/sections/dogs/dogs_1.png"
-import perros_img_2 from "../../img/sections/dogs/dogs_2.png"
-import perros_img_3 from "../../img/sections/dogs/dogs_3.png"
-import perros_img_4 from "../../img/sections/dogs/dogs_4.png"
-import perros_img_5 from "../../img/sections/dogs/dogs_5.png"
-import perros_img_6 from "../../img/sections/dogs/dogs_6.png"
-import perros_img_7 from "../../img/sections/dogs/dogs_7.png"
-import perros_img_8 from "../../img/sections/dogs/dogs_8.png"
-import perros_img_9 from "../../img/sections/dogs/dogs_9.png"
-import perros_img_10 from "../../img/sections/dogs/dogs_10.png"
-import perros_img_11 from "../../img/sections/dogs/dogs_11.png"
-import perros_img_12 from "../../img/sections/dogs/dogs_12.png"
-import perros_img_13 from "../../img/sections/dogs/dogs_13.png"
-import perros_img_14 from "../../img/sections/dogs/dogs_14.png"
-import perros_img_15 from "../../img/sections/dogs/dogs_15.png"
-import perros_img_16 from "../../img/sections/dogs/dogs_16.png"
-import perros_img_17 from "../../img/sections/dogs/dogs_17.png"
-import perros_img_18 from "../../img/sections/dogs/dogs_18.png"
-import perros_img_19 from "../../img/sections/dogs/dogs_19.png"
-import perros_img_20 from "../../img/sections/dogs/dogs_20.png"
-import perros_img_21 from "../../img/sections/dogs/dogs_21.png"
+import perros_img_1 from "./img/sections/dogs/dogs_1.png"
+import perros_img_2 from "./img/sections/dogs/dogs_2.png"
+import perros_img_3 from "./img/sections/dogs/dogs_3.png"
+import perros_img_4 from "./img/sections/dogs/dogs_4.png"
+import perros_img_5 from "./img/sections/dogs/dogs_5.png"
+import perros_img_6 from "./img/sections/dogs/dogs_6.png"
+import perros_img_7 from "./img/sections/dogs/dogs_7.png"
+import perros_img_8 from "./img/sections/dogs/dogs_8.png"
+import perros_img_9 from "./img/sections/dogs/dogs_9.png"
+import perros_img_10 from "./img/sections/dogs/dogs_10.png"
+import perros_img_11 from "./img/sections/dogs/dogs_11.png"
+import perros_img_12 from "./img/sections/dogs/dogs_12.png"
+import perros_img_13 from "./img/sections/dogs/dogs_13.png"
+import perros_img_14 from "./img/sections/dogs/dogs_14.png"
+import perros_img_15 from "./img/sections/dogs/dogs_15.png"
+import perros_img_16 from "./img/sections/dogs/dogs_16.png"
+import perros_img_17 from "./img/sections/dogs/dogs_17.png"
+import perros_img_18 from "./img/sections/dogs/dogs_18.png"
+import perros_img_19 from "./img/sections/dogs/dogs_19.png"
+import perros_img_20 from "./img/sections/dogs/dogs_20.png"
+import perros_img_21 from "./img/sections/dogs/dogs_21.png"
 
 //Cat section
 
-import gatos_img_1 from "../../img/sections/cats/cats_1.png"
-import gatos_img_2 from "../../img/sections/cats/cats_2.png"
-import gatos_img_3 from "../../img/sections/cats/cats_3.png"
-import gatos_img_4 from "../../img/sections/cats/cats_4.png"
-import gatos_img_5 from "../../img/sections/cats/cats_5.png"
-import gatos_img_6 from "../../img/sections/cats/cats_6.png"
-import gatos_img_7 from "../../img/sections/cats/cats_7.png"
-import gatos_img_8 from "../../img/sections/cats/cats_8.png"
-import gatos_img_9 from "../../img/sections/cats/cats_9.png"
-import gatos_img_10 from "../../img/sections/cats/cats_10.png"
-import gatos_img_11 from "../../img/sections/cats/cats_11.png"
-import gatos_img_12 from "../../img/sections/cats/cats_12.png"
+import gatos_img_1 from "./img/sections/cats/cats_1.png"
+import gatos_img_2 from "./img/sections/cats/cats_2.png"
+import gatos_img_3 from "./img/sections/cats/cats_3.png"
+import gatos_img_4 from "./img/sections/cats/cats_4.png"
+import gatos_img_5 from "./img/sections/cats/cats_5.png"
+import gatos_img_6 from "./img/sections/cats/cats_6.png"
+import gatos_img_7 from "./img/sections/cats/cats_7.png"
+import gatos_img_8 from "./img/sections/cats/cats_8.png"
+import gatos_img_9 from "./img/sections/cats/cats_9.png"
+import gatos_img_10 from "./img/sections/cats/cats_10.png"
+import gatos_img_11 from "./img/sections/cats/cats_11.png"
+import gatos_img_12 from "./img/sections/cats/cats_12.png"
 
 //birds section
 
-import aves_img_1 from "../../img/sections/birds/birds_1.png"
-import aves_img_2 from "../../img/sections/birds/birds_2.png"
-import aves_img_3 from "../../img/sections/birds/birds_3.png"
-import aves_img_4 from "../../img/sections/birds/birds_4.png"
-import aves_img_5 from "../../img/sections/birds/birds_5.png"
+import aves_img_1 from "./img/sections/birds/birds_1.png"
+import aves_img_2 from "./img/sections/birds/birds_2.png"
+import aves_img_3 from "./img/sections/birds/birds_3.png"
+import aves_img_4 from "./img/sections/birds/birds_4.png"
+import aves_img_5 from "./img/sections/birds/birds_5.png"
 
 //birds section
 
-import peces_img_1 from "../../img/sections/fish/fish_1.png"
-import peces_img_2 from "../../img/sections/fish/fish_2.png"
-import peces_img_3 from "../../img/sections/fish/fish_3.png"
-import peces_img_4 from "../../img/sections/fish/fish_4.png"
-import peces_img_5 from "../../img/sections/fish/fish_5.png"
+import peces_img_1 from "./img/sections/fish/fish_1.png"
+import peces_img_2 from "./img/sections/fish/fish_2.png"
+import peces_img_3 from "./img/sections/fish/fish_3.png"
+import peces_img_4 from "./img/sections/fish/fish_4.png"
+import peces_img_5 from "./img/sections/fish/fish_5.png"
 
 //birds section
 
-import otros_img_1 from "../../img/sections/others/others_1.png"
-import otros_img_2 from "../../img/sections/others/others_2.png"
-import otros_img_3 from "../../img/sections/others/others_3.png"
-import otros_img_4 from "../../img/sections/others/others_4.png"
-import otros_img_5 from "../../img/sections/others/others_5.png"
-import otros_img_6 from "../../img/sections/others/others_6.png"
-import otros_img_7 from "../../img/sections/others/others_7.png"
-import otros_img_8 from "../../img/sections/others/others_8.png"
+import otros_img_1 from "./img/sections/others/others_1.png"
+import otros_img_2 from "./img/sections/others/others_2.png"
+import otros_img_3 from "./img/sections/others/others_3.png"
+import otros_img_4 from "./img/sections/others/others_4.png"
+import otros_img_5 from "./img/sections/others/others_5.png"
+import otros_img_6 from "./img/sections/others/others_6.png"
+import otros_img_7 from "./img/sections/others/others_7.png"
+import otros_img_8 from "./img/sections/others/others_8.png"
 
 
 
- const data = [
+export const data = [
 
   //dogs section
 
@@ -538,5 +538,3 @@ import otros_img_8 from "../../img/sections/others/others_8.png"
             },
 
   ];
-
-  export default data;

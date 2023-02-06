@@ -5,7 +5,7 @@ import Adopt from "./Adopt"
 import Blog from "./Blog"
 import Shop from "./Shop"
 
-const Routers = ({productsInCart, setProductsInCart, allToProducts, setAllToProducts}) =>{
+const Routers = ({allProducts, setAllProducts, total, setTotal, countProducts, setCountProducts}) =>{
     return (
     <Routes>
 
@@ -15,10 +15,15 @@ const Routers = ({productsInCart, setProductsInCart, allToProducts, setAllToProd
         <Route path='/adopt' element={<Adopt/>}/>
         <Route path='/blog' element={<Blog/>}/>
         <Route path='/shop' element={<Shop 
-        productsInCart={productsInCart} 
-        setProductsInCart={setProductsInCart} 
-        allToProducts={allToProducts} 
-        setAllProducts={setAllToProducts}/>}/>
+        
+        allProducts={allProducts}
+        setAllProducts={setAllProducts}
+        total={total}
+        setTotal={setTotal}
+        countProducts={countProducts}
+        setCountProducts={setCountProducts}
+
+        />}/>
 
     </Routes>
     );
